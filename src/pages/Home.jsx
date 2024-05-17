@@ -17,7 +17,7 @@ export default function Home(){
         </div>
         </div>
         <div class=" xl:w-96 justify-center align-bottom flex lg:mr-48">
-            <img src="../../public/img/homeImg.png" alt="" />
+            <img src="../../public/homeImg.png" alt="" />
         </div>
     
     </div>      
