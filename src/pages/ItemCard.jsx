@@ -13,7 +13,7 @@ export default function Item({Links}){
                 <img class="mr-4 h-14 w-16 rounded-full" src={link.img} alt="Avatar of Jonathan Reinink" />
                 <div class="text-sm">
                   <p class="leading-none text-gray-200">{link.nome}</p>
-                  <p class="text-gray-300">5 de Maio</p>
+                  <p class="text-gray-300">5 de Maio</p>            
                 </div>
               </div>
             </div>
