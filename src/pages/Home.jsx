@@ -21,7 +21,7 @@ export default function Home() {
                 href="#"
                 class="bg-teal-800 rounded-3xl shadow-2xl border-transparent border-r border-b border-l border-t py-3 px-10 font-medium inline-block mr-4 hover:bg-cyan-600  hover:text-white duration-300 hover:border border"
               >
-                Leia Mais
+                Leia Mais!
               </a>
               <a
                 href="#"
