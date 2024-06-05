@@ -27,7 +27,7 @@ export default function Home() {
                 href="#"
                 class="bg-teal-800 border-transparent rounded-3xl shadow-2xl border-r border-b border-l border-t py-3 px-10 font-medium inline-block mr-4 hover:bg-teal-700  hover:text-white duration-300 hover:border border"
               >
-                Sobre o Projeto
+                Sobre o Projeto!
               </a>
             </div>
           </div>
