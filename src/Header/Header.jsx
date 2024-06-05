@@ -8,11 +8,11 @@ export default function Header(){
     const {isCurrentPage} = usePath()
 
     return(
-        <header className='flex justify-between items-center h-20 px-6 py-5 bg-gradient-to-r  from-cyan-900 to-bg-teste shadow-xl'>
-            
-                <h1 className=' font-bold text-2xl text-gray-300 pl-5 '>NT.</h1>
+        <header className='flex justify-between items-center h-20 px-6 py-5 bg-gradient-to-l  from-teal-800 to-bg-teal-700 shadow-xl'>
+                
+                <h1 className=' font-bold text-2xl text-gray-300 pl-5 '>OceanWatch</h1>
                 <nav className='flex gap-6 items-center pr-5' >    
-                     
+                    
                         <Link className={isCurrentPage('/') ? current : general} to = '/'>Home
                             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 1024 1024" height="1em"
                             width="1em" xmlns="http://www.w3.org/2000/svg" >
@@ -21,8 +21,8 @@ export default function Header(){
                                 </path>
                             </svg>    
                         </Link>
-                     
-                     <Link className={isCurrentPage('/sobre') ? current : general} to = '/sobre'>Sobre
+                    
+                    <Link className={isCurrentPage('/sobre') ? current : general} to = '/sobre'>Sobre
                             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 1024 1024" height="1em"
                             width="1em" xmlns="http://www.w3.org/2000/svg" >
                                 <path
@@ -30,7 +30,7 @@ export default function Header(){
                                 </path>
                             </svg>
                         </Link>
-                     
+                    
                     <Link className={isCurrentPage('/nos') ? current : general} to = '/nos' >Equipe
                             <svg stroke="currentColor" fill="none" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em"
                             xmlns="http://www.w3.org/2000/svg" >
@@ -43,12 +43,12 @@ export default function Header(){
                                 </path>
                             </svg>
                         </Link>
-                     
-                     
+
+
                         <Link className={isCurrentPage('/contato') ? current : general} to = '/contato'>Contato
                             
                         </Link>
-                     
+                    
                         <Link to = 'github.com' target='_blank'>
                             <svg stroke="currentColor" fill="none" strokeWidth="0" viewBox="0 0 24 24" height="1em" width="1em"
                             xmlns="http://www.w3.org/2000/svg" >
@@ -58,7 +58,7 @@ export default function Header(){
                                 </path>
                             </svg>
                         </Link>
-                     
+                    
                 
             </nav>
         </header>

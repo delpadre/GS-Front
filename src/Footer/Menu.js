@@ -5,25 +5,16 @@ export const HOME = [
 ]
 
 export const SOBRE = [
-    {name:'Projeto',link:'#'},
+    {name:'Projeto',link:'https://github.com/delpadre/OceanWatch'},
     {name:'Ferramentas',link:'#'},
     {name:'Apliações',link:'#'},
-    {name:'Features',link:'#'},
-    {name:'Código',link:'#'},
 ]
 
 export const EQUIPE = [
-    {name:'Artur Loreto',link:'#',},
-    {name:'Caio Tominaga',link:'#'},
-    {name:'Rafael Jorge',link:'#'},
-    {name:'Vinicius Caetano',link:'#'},
-    {name:'Wesley Vieira',link:'#'},
+{name:'Rafael Jorge',link:'https://github.com/delpadre'},
 ]
 
 export const CONTATO = [
     {name:'Nos encontre',link:'#'},
     {name:'Fale conosco',link:'#'},
-    {name:'Onde nos achar',link:'#'},
-    {name:'Onde atuamos',link:'#'},
-    {name:'Comunidade online',link:'#'},
 ]

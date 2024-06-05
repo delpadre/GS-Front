@@ -20,23 +20,23 @@ export default function Contato(){
       <>
         <Header />
         <div className="">
-          <div className="bg-gradient-to-b from-bg-1-nos to-bg-2-nos antialiased">
+          <div className="bg from-bg-1-nos to-bg-2-nos antialiased">
             <div className="flex min-h-screen w-full items-center justify-center">
               <div
-                className="flex flex-col md:flex-row md:space-x-6 md:space-y-0 max-w-5xl space-y-6 rounded-xl bg-cyan-700
-                p-8 text-white shadow-lg overflow-hidden"
+                className="bg-teal-800 flex flex-col md:flex-row md:space-x-6 max-w-5xl space-y-6 rounded-xl 
+                bg-teal-800 rounded-3xl shadow-2xl  mr-4 p-8 text-white shadow-lg overflow-hidden"
               >
-                <div className="flex flex-col justify-between space-y-8">
+                <div className=" flex flex-col justify-between space-y-8">
                   <div>
                     <h1 className="text-4xl font-bold tracking-wide">
                       Contate-nos
                     </h1>
                     <p className="pt-2 text-sm text-cyan-100">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Adipisci aperiam nemo consectetur enim rem et odit commodi
-                      natus eligendi! Eligendi soluta porro beatae rerum
-                      similique cumque, minus consequatur incidunt deleniti.
+                      Nos envie uma mensagem ou faça o login
                     </p>
+                    <a href="conta.html" className="text-black hover:underline">
+    Login
+  </a>
                   </div>
 
                   <div className="flex flex-col space-y-6">
@@ -45,7 +45,7 @@ export default function Contato(){
                         name="call"
                         className="text-teal-300 text-xl "
                       ></ion-icon>
-                      <span>+(123) 95671-7891</span>
+                      <span>+(123) 951-7441</span>
                     </div>
 
                     <div className="inline-flex items-center space-x-2">
@@ -53,7 +53,7 @@ export default function Contato(){
                         name="mail"
                         className="text-teal-300 text-xl"
                       ></ion-icon>
-                      <span>nt@novatech.com</span>
+                      <span>delpadrerafa@gmail.com</span>
                     </div>
 
                     <div className="inline-flex items-center space-x-2">
@@ -66,27 +66,17 @@ export default function Contato(){
                   </div>
                   <div className="flex space-x-4 text-lg">
                     <Link>
-                      <ion-icon name="logo-facebook"></ion-icon>
-                    </Link>
-                    <Link>
-                      <ion-icon name="logo-twitter"></ion-icon>
-                    </Link>
-                    <Link>
-                      <ion-icon name="logo-instagram"></ion-icon>
-                    </Link>
-                    <Link>
                       <ion-icon name="logo-linkedin"></ion-icon>
                     </Link>
                   </div>
                 </div>
                 <div className="relative ">
-                  <div className="z-0 absolute w-40 h-40 bg-teal-400 rounded-full -right-28 -top-28 "></div>
-                  <div className="z-0 absolute w-40 h-40 bg-teal-400 rounded-full -left-16 -bottom-16 "></div>
+                  
 
-                  <div className="relative z-1 w-full bg-white rounded-xl space-y-4 shadow-lg p-8 text-gray-600 flex flex-col md:w-80">
+                  <div className="relative z-1 w-full bg-teal-700 rounded-xl space-y-4 shadow-lg p-8 text-gray-600 flex flex-col md:w-80">
                     <form onSubmit={onSubmit} className="flex flex-col space-y-4">
                       <div>
-                        <label className="text-sm ">Seu nome</label>
+                        <label className="text-sm text-white ">Seu nome</label>
                         <input
                           type="text"
                           placeholder="Nome completo"
@@ -96,7 +86,7 @@ export default function Contato(){
                         />
                       </div>
                       <div>
-                        <label className="text-sm">E-mail</label>
+                        <label className="text-sm text-white">E-mail</label>
                         <input
                         id="emailContato"
                           type="email"
@@ -106,7 +96,7 @@ export default function Contato(){
                         />
                       </div>
                       <div>
-                        <label className="text-sm">
+                        <label className="text-sm text-white">
                           Mensagem
                         </label>
                         <textarea
@@ -117,7 +107,7 @@ export default function Contato(){
                           name="msg"
                         ></textarea>
                       </div>
-                      <button className="inline-block bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm self-center">
+                      <button className="bg-teal-800 rounded-2xl shadow-2xl border-transparent border-r border-b border-l border-t py-2 px-10 font-medium mr-2 text-white duration-300 hover:border border">
                         Enviar
                       </button>
                     </form>

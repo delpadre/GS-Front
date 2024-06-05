@@ -5,7 +5,7 @@ import CardCompleto from "./CardCompleto"
 export default function Nos(){
     return(
         <>    
-            <div  className="bg-gradient-to-b from-bg-1-nos to-bg-2-nos antialiased">
+            <div  className="bg- from-bg-1-nos to-bg-2-nos antialiased">
                 <Header/>
                     <CardCompleto/>
                 <Footer/>
