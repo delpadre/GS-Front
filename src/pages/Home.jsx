@@ -1,5 +1,6 @@
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import CarrosselPage from './CarrosselPage';
 
 export default function Home() {
   return (
@@ -23,18 +24,14 @@ export default function Home() {
               >
                 Leia Mais!
               </a>
-              <a
-                href="#"
-                class="bg-teal-800 border-transparent rounded-3xl shadow-2xl border-r border-b border-l border-t py-3 px-10 font-medium inline-block mr-4 hover:bg-teal-700  hover:text-white duration-300 hover:border border"
-              >
-                Sobre o Projeto!
-              </a>
             </div>
           </div>
+          <div className="container mx-auto p-4"></div>
           <div class=" xl:w-96 justify-center align-bottom flex lg:mr-50"></div>
+          <CarrosselPage />
         </div>
       </div>
-
+          
       <Footer />
     </>
   );
